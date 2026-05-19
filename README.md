@@ -1,36 +1,105 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# JG University — Landing Page Redesign
 
-## Getting Started
+A modern, visually premium redesign of [JG University's](https://jguni.in) website built as part of an internship assignment.
 
-First, run the development server:
+## 🔗 Live Demo
+**[https://jg-university-redesign-seven.vercel.app](https://jg-university-redesign-seven.vercel.app)**
+
+---
+
+## 🛠️ Tech Stack
+
+- **Next.js** — React framework with App Router
+- **Tailwind CSS** — Utility-first styling
+- **Framer Motion** — Animations and transitions
+- **Lucide React** — Modern icon library
+
+---
+
+## ✨ Features
+
+- 🎨 Premium warm color palette (Brown + Violet)
+- 📱 Fully responsive — mobile, tablet, desktop
+- 🎬 Smooth scroll animations with Framer Motion
+- 🧭 Sticky navbar with blur on scroll
+- 📊 Animated stat counters
+- 🗂️ Tabbed programs section (UG, PG, Doctoral, Certificate)
+- 💬 Testimonials carousel with alumni stories
+- 🎯 Full-width CTA section
+- 🦶 4-column responsive footer
+
+---
+
+## 📁 Project Structure
+jg-university/
+├── app/
+│   ├── globals.css
+│   ├── layout.js
+│   └── page.js
+├── components/
+│   ├── Navbar.js
+│   ├── Hero.js
+│   ├── Stats.js
+│   ├── About.js
+│   ├── Programs.js
+│   ├── Testimonials.js
+│   ├── CTA.js
+│   └── Footer.js
+└── public/
+
+---
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/VASU52261/jg-university-redesign.git
+cd jg-university-redesign
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📸 Sections
 
-## Learn More
+| Section | Description |
+|---|---|
+| Navbar | Sticky, transparent to blur on scroll |
+| Hero | Full screen with animated stats cards |
+| Stats | Animated counters |
+| About | University highlights + stats card |
+| Programs | Tabbed layout with 40+ programmes |
+| Testimonials | Alumni carousel with star ratings |
+| CTA | Full width admissions banner |
+| Footer | 4-column responsive footer |
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📦 Dependencies
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```json
+{
+  "next": "^16.2.6",
+  "tailwindcss": "latest",
+  "framer-motion": "latest",
+  "lucide-react": "latest"
+}
+```
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Built with ❤️ for the CodingJr Internship Assignment
