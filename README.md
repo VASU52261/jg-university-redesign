@@ -31,6 +31,8 @@ A modern, visually premium redesign of [JG University's](https://jguni.in) websi
 ---
 
 ## 📁 Project Structure
+
+\```
 jg-university/
 ├── app/
 │   ├── globals.css
@@ -46,8 +48,7 @@ jg-university/
 │   ├── CTA.js
 │   └── Footer.js
 └── public/
-
----
+\```
 
 ## 🚀 Getting Started
 
