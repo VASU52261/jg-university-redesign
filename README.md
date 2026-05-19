@@ -99,8 +99,6 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
   "framer-motion": "latest",
   "lucide-react": "latest"
 }
-```
 
----
 
 Built with ❤️ for the CodingJr Internship Assignment
